@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+# Site Footer
+--------------------------------------------------------------*/
+.site-footer {
+	overflow: hidden;
+    position: relative;
+    padding: 75px 0 30px;
+    &:before,&:after {
+        position: absolute;
+        content: "";
+        bottom: 0;   
+        z-index: -1;
+        height: 250px;
+        width: 360px;
+    }
+    &:before {
+        background: transparent url("images/footer-left.png") no-repeat scroll left bottom;
+        left: -75px;        
+    }
+    &:after {
+        background: transparent url("images/footer-right.png") no-repeat scroll right bottom;
+        right: 0;        
+    }
+}
+.payment-method{
+    margin-bottom: 20px;
+    > a {
+        padding: 0 5px;
+    }
+}
+.copyright > p {
+    color: $color__copyright;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#footer-top-section {
+    padding-bottom: 30px;
+    @media only screen and (max-width: 992px) {
+        background-image: none !important;
+    }
+    .widget-title-area {
+        margin-bottom: 15px;
+    }
+    .section-title-area {
+        .section-title {
+            color: $color__white;
+            font-size: 45px;
+            font-weight: 900;
+            line-height: 48px;
+            margin: 30px 0 15px;
+        }
+        .section-title-dec {
+            color: #414141;
+            margin-bottom: 30px;
+        }
+    }
+    p {
+        margin-bottom: 0px;
+        color: #414141;
+        font-weight: bold;
+    }
+    .widget-title-area {
+        color: $color__white;
+        .widget-title {
+            font-family: inherit; 
+            color: inherit;
+        }
+    }
+}
+#footer-bottom-section > .container > .row:first-child {
+    border-bottom: 1px solid $color__border-dark;
+    margin-bottom: 30px;
+}
+/*--------------------------------------------------------------
+# Scroll Top
+--------------------------------------------------------------*/
+.topbutton {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+	background: $color__white;
+	display: block;
+	height: 45px;
+	line-height: 47px;
+	text-align: center;
+	width: 45px;
+	@include prefixed(border-radius, 50%);
+	@include prefixed(transition, all .3s);
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.4);
+	z-index: 99;
+    opacity: 0;
+    color: $color__heading;
+    @media only screen and (max-width: 600px) {
+        right: 10px;
+    }
+}
+
+.btn-show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.btn-hide {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}

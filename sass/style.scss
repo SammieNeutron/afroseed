@@ -1,0 +1,144 @@
+/*
+Template Name: Aravira
+Template URI: http://aravira-hotel.htmlguru.net
+Author: htmlguru
+Author URI: http://softhopper.net
+Description: It\' s a Hotel Template. Which is a unique feature and user competitive feature.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html.
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Elements
+	## Post, Page, Comments Table
+# Forms
+# Navigation
+	## Links
+	## Menus
+	## Pagination
+	## Navigation responsive
+		### Mobile CSS
+		### Pagination responsive
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+#layouts
+	## Header Content
+		### Pre-Loader
+		### Site Header
+			### Header Top
+			### Header Bottom
+	## Welcome Content
+	## Main Content
+		### On-line Book One
+		### On-line Book Two
+		### Best Place Section
+		### Our Hospitality Section
+		### Our gallery Section
+		### Hotel Room Section
+		### Service Section
+		### Our Customer Area
+		### Blog Post area
+		### Fun facts Content
+		### Gallery Content
+		### Event Content
+		### Dining Menu Item
+		### Coming Soon Page
+		### Spa and Wedding Page
+	## Widget-content
+		### widget-social
+		### About Us widget
+		### Email Subscribe Widget
+		### Popular, Latest Post, Recent Comment widget
+		### text widget
+		### Categories And Archive Widget
+		### TagCloud Widget
+		### Follow Us Widget
+		### Search Widget
+		### Search Widget
+		### Calender Widget
+		### Links, Meta, NavMenu, Pages, 
+			Recent Comment, Recent Entries  Widget
+		### RSS Widget
+		### Text Widget
+		### Custom nav for layout Eight
+		### Instagram widget 
+		### Extra widget
+	## Footer Content
+		### Scroll Top
+# Site Content
+    ## Posts and pages
+    	### Post Meta
+	## Comments
+	## About Page
+	## Contact Page
+	## 404 Page
+	## Site Responsive
+		### About US Page
+# Media
+	## Captions
+	## Galleries
+		### WordPress Default Gallery
+		### Gallery pop Up
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Author Slider
+--------------------------------------------------------------*/
+@import "site/secondary/author-slider";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";

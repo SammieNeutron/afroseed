@@ -1,0 +1,40 @@
+form.review-comment-form.box-radius(action="#")
+    p
+        |Submit your review
+    .single-input
+        label(for="name")
+            |Name:
+        input.form-controller(type="text" id="name")
+    .single-input
+        label(for="email")
+            |Email:
+        input.form-controller(type="email" id="email")
+    .single-input
+        label(for="title")
+            |Review title:
+        input.form-controller(type="text" id="title")
+    .single-input
+        label
+            |Rating:
+        span.review-rating.rating
+            a(href="#")
+                i.fa.fa-star-o
+            a(href="#")
+                i.fa.fa-star-o
+            a(href="#")
+                i.fa.fa-star-o
+            a(href="#")
+                i.fa.fa-star-o
+            a(href="#")
+                i.fa.fa-star-o
+    .single-input
+        label(for="message")
+            |Review:
+        textarea(name="message" id="message")
+    .single-input
+        label(for="check")
+            input(type="checkbox" id="check")
+            |Check this box to confirm you are human  
+    button.btn.btn-submit(type="submit")
+        |Submit Review   
+<!--/.review-comment-form-->   

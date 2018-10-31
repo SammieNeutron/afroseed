@@ -1,0 +1,236 @@
+.welcome-section.style-one.jarallax(data-jarallax-video='//www.youtube.com/watch?v=4eJ8sJGh5dA&showinfo=0&enablejsapi=1&origin=http://aravira-hotel.htmlguru.net/')(data-jarallax='{"speed": 0.25, "videoStartTime": 1, "videoEndTime": 500000}')
+    .container
+        .row
+
+            .col-md-7.tb.col-md-push-3
+                .welcome-text.tb-cell
+                    h4.title
+                        |Good Service in our passion
+                    h2.headline
+                        |book your stay
+                    p
+                        |<span>+88 06987456</span> Interested in booking a room for your next trip, at this exact place? Call us now!
+                    .welcome-btn                    
+                        a.btn.btn-offer.active(href="#")
+                            |Special Offer
+                        a.btn.btn-offer(href="#")
+                            |<span>45% Off</span> - 10Days
+                    <!--/.welcome-btn -->
+                <!--/.welcome-text-->
+            <!--/.col-md-7-->
+
+            .col-md-2.col-md-pull-7
+                #aravira-facility.owl-carousel
+                    .facility-col
+                        a.single-facility(href="#" data-toggle="modal" data-target="#login-modal")
+                            i.fa.fa-user
+                            span
+                                |login
+                        <!--/.single-facility-->
+                        a.single-facility(href="#" data-toggle="modal" data-target="#booking-modal")
+                            i.fa.fa-book
+                            span
+                                |booking
+                        <!--/.single-facility-->
+                        a.single-facility(href="#")
+                            i.fa.fa-life-ring
+                            span
+                                |support
+                        <!--/.single-facility-->
+                    <!--/.facility-col-->
+                    .facility-col                        
+                        a.single-facility(href="#" data-toggle="modal" data-target="#registrar-modal")
+                            i.fa.fa-book
+                            span
+                                |sign up
+                        <!--/.single-facility-->
+                        a.single-facility(href="#")
+                            i.fa.fa-envelope
+                            span
+                                |contact
+                        <!--/.single-facility-->
+                        a.single-facility(href="#")
+                            i.fa.fa-life-ring
+                            span
+                                |support
+                        <!--/.single-facility-->
+                    <!--/.facility-col-->
+                <!--/#aravira-facility-->
+            <!--/.col-md-2-->
+        <!--/.row-->
+    <!--/.container-->
+<!--/.welcome-section-->
+
+.modal.fade#login-modal(tabindex="-1" aria-labelledby="login-modal")
+    .modal-dialog
+        .modal-content
+            .modal-header
+                button(type="button" class="close" data-dismiss="modal")
+                    span
+                        | &times;
+            .modal-body
+                form.review-comment-form.box-radius(action="#")
+                    p.modal-title
+                        |Login your Account
+                    .single-input
+                        label
+                            |Username:
+                        .input.box-radius
+                            input.form-controller(type="text" placeholder="Username")
+                    .single-input
+                        label
+                            |Password:
+                        .input.box-radius
+                            input.form-controller(type="password" placeholder="Password")
+                    button.btn.btn-submit(type="submit")
+                        |Login 
+                    .login-help
+                        a(href="#") Register
+                        | or
+                        a(href="#") Forgot Password
+                <!--/.review-comment-form-->
+            <!--/.modal-body-->
+        <!--/.modal-content-->
+    <!--/.modal-dialog-->
+<!--/#login-modal-->
+
+.modal.fade#booking-modal(tabindex="-1" aria-labelledby="booking-modal")
+    .modal-dialog
+        .modal-content
+            .modal-header
+                button(type="button" class="close" data-dismiss="modal")
+                    span
+                        | &times;
+            .modal-body
+                form.review-comment-form.box-radius(action="#")
+                    p.modal-title
+                        | Your reservation
+                    .single-input
+                        label
+                            |Arrival Date
+                        .input.box-radius
+                            i.fa.fa-calendar
+                            input.calendar.form-controller(type="text" placeholder="Arrival Date")
+                    .single-input
+                        label
+                            |Departure Date
+                        .input.box-radius
+                            i.fa.fa-calendar
+                            input.calendar.form-controller(type="text" placeholder="Departure Date")
+                    .single-input
+                        label
+                            |Nights
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |1
+                                option(value="2")
+                                    |2
+                                option(value="3")
+                                    |3
+                    .single-input
+                        label
+                            |Room Types
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |VIP Room
+                                option(value="2")
+                                    |Exclusive Room
+                                option(value="3")
+                                    |Normal Room
+                    .single-input
+                        label
+                            |Rooms
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |1
+                                option(value="2")
+                                    |2
+                                option(value="3")
+                                    |3
+                    .single-input
+                        div.row
+                            .col-xs-6
+                                label
+                                    |Adult
+                                .input.box-radius
+                                    i.fa.fa-caret-down
+                                    select(name="room")
+                                        option(value="1")
+                                            |1
+                                        option(value="2")
+                                            |2
+                                        option(value="3")
+                                            |3
+                            .col-xs-6
+                                label
+                                    |Children
+                                .input.box-radius
+                                    i.fa.fa-caret-down
+                                    select(name="room")
+                                        option(value="1")
+                                            |1
+                                        option(value="2")
+                                            |2
+                                        option(value="3")
+                                            |3
+                    button.btn.btn-submit(type="submit")
+                        |Check Availability   
+                <!--/.review-comment-form-->
+            <!--/.modal-body-->
+        <!--/.modal-content-->
+    <!--/.modal-dialog-->
+<!--/#booking-modal-->
+
+.modal.fade#registrar-modal(tabindex="-1" aria-labelledby="registrar-modal")
+    .modal-dialog
+        .modal-content
+            .modal-header
+                button(type="button" class="close" data-dismiss="modal")
+                    span
+                        | &times;
+            .modal-body
+                form.review-comment-form.box-radius(action="#")
+                    p.modal-title
+                        |Registrar Account
+                    .single-input
+                        label
+                            | First Name:
+                        .input.box-radius
+                            input.form-controller(type="text" placeholder="First Name")
+                    .single-input
+                        label
+                            | Last Name:
+                        .input.box-radius
+                            input.form-controller(type="text" placeholder="Last Name")
+                    .single-input
+                        label
+                            | Email:
+                        .input.box-radius
+                            input.form-controller(type="email" placeholder="email@email.com")
+                    .single-input
+                        label
+                            | Password:
+                        .input.box-radius
+                            input.form-controller(type="password" placeholder="Password")
+                    .single-input
+                        label
+                            | Confirm Password:
+                        .input.box-radius
+                            input.form-controller(type="password" placeholder="Confirm Password")
+                    .single-input
+                        label
+                            input(type="checkbox" id="check")
+                            | I am agree to aravira <a href="#">terms and policy</a>.  
+                    button.btn.btn-submit(type="submit")
+                        |Registrar
+                <!--/.review-comment-form-->
+            <!--/.modal-body-->
+        <!--/.modal-content-->
+    <!--/.modal-dialog-->
+<!--/#registrar-modal-->

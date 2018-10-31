@@ -1,0 +1,290 @@
+.room-single-area
+    .container
+        .row
+            .col-md-8.room-single-content
+                .room-single-thumb
+                    .room-thumb-full.owl-carousel
+                        .item
+                            img(src="images/rooms/room-single.jpg" alt="room-gallery")                        
+                        .item
+                            img(src="images/rooms/room-single.jpg" alt="room-gallery")                        
+                        .item
+                            img(src="images/rooms/room-single.jpg" alt="room-gallery")
+                        .item
+                            img(src="images/rooms/room-single.jpg" alt="room-gallery")
+
+                    .room-thumb-list.owl-carousel
+                        .item
+                            img(src="images/rooms/room-gallery/thumb-1.jpg" alt="room-gallery")                        
+                        .item
+                            img(src="images/rooms/room-gallery/thumb-2.jpg" alt="room-gallery")                        
+                        .item
+                            img(src="images/rooms/room-gallery/thumb-3.jpg" alt="room-gallery")
+                        .item
+                            img(src="images/rooms/room-gallery/thumb-4.jpg" alt="room-gallery")
+                        .item
+                            img(src="images/rooms/room-gallery/thumb-2.jpg" alt="room-gallery") 
+                <!--/.room-single-thumb-->
+
+                .single-room.list.mobile-extend
+                    .room-info
+                        .room-title-area.clearfix
+                            .pull-left
+                                h3.room-title
+                                    |Room With ExtraFields
+                            .pull-right
+                                h5
+                                    |Starting from $50 / Night
+
+                        <!--/.room-title-area-->
+
+                        .room-description.clearfix
+                            h4
+                                | Room Description
+                            p
+                                | Semper ac dolor vitae accumsan. interdum hendrerit lacinia. Etiam eget urna augue. Aen ean posuere pharetra tortor eu sodales. Aenean vitae facilisis ligula.                            
+                            p
+                                | Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et male suada fame ac turpis egestas. Aenean vitae facilisis ligula. Quisque dictum neque in lectus cur sushts congue. Phasellus sodales condimentum rutrum.
+                            h4
+                                | Room Overview
+                            p
+                                | <strong>Semper ac dolor vitae accumsan. interdum hendrerit lacinia. Etiam eget urna augue. Aen ean posuere pharetra tortor eu sodales. Aenean vitae facilisis ligul.</strong>
+                        <!--/.room-description-->
+                        .room-service-area.clearfix
+                            ul.room-services.list-unstyled
+                                li
+                                    i.fa.fa-home
+                                    |Room Size 350 FT<sup>2</sup>
+                                li
+                                    i.fa.fa-laptop
+                                    |computer
+                                li
+                                    i.fa.fa-eye
+                                    |Awesome View
+                                li
+                                    i.fa.fa-wifi
+                                    |WIFI
+                                li
+                                    i.fa.fa-television
+                                    |Flat Screen TV
+                                li
+                                    i.fa.fa-microphone-slash
+                                    |Air Condition
+                                li
+                                    i.fa.fa-eye
+                                    |Soundproof
+                                li
+                                    i.fa.fa-coffee
+                                    |Breakfast Included
+                                li
+                                    i.fa.fa-microphone-slash
+                                    |Room Service
+                                li
+                                    i.fa.fa-plane
+                                    |Airport Pickup
+                        <!--/.room-service-area-->
+
+                        .room-comments-area
+                            #respond.comment-respond.box-radius
+                                .row
+                                    .col-md-12
+                                        h3.comment-reply-title
+                                            | Leave your Reply
+                                        <!--/.comment-reply-title--> 
+                                    <!--/.col-md-12-->
+                                <!--/.row-->
+                                .row
+                                    .col-md-12
+                                        form(action="comments-post.php" method="post" id="comment_form" name="commentForm")
+                                            .row
+                                                .col-md-6.col-sm-6.padding-right 
+                                                    p
+                                                        input(type='text' name='name' id='name' class="form-controllar"  aria-required="true" placeholder="Name*")
+                                                <!--/.col-md-6-->
+
+                                                .col-md-6.col-sm-6
+                                                    p
+                                                        input(type='text' name='email' id='email' class="form-controllar"  aria-required="true" placeholder="Email*")
+                                                <!--/.col-md-6-->
+
+                                                .col-md-12
+                                                    p
+                                                        input(type="text" placeholder="Website*" aria-required="true" class="form-controllar" id="url" name="url") 
+                                                <!--/.col-md-12-->
+
+                                                .col-md-12
+                                                    p
+                                                        textarea(name='message' id='message' class="form-controllar" aria-required="true" rows="8" cols="45" placeholder="Write a Comment....")
+                                                <!--/.col-md-12-->
+
+                                                .col-md-12
+                                                    p.form-submit.text-center
+                                                        button.btn(type="submit" id="submit")
+                                                            |Post Comment
+                                                <!--/.col-md-12-->
+                                            <!--/.row-->
+                                        <!--/#comment_form-->
+                                    <!--/.col-md-12-->
+                                <!--/.row-->
+                            <!--/.comment-respond--> 
+                        <!--/.room-comments-area-->
+                    <!--/.room-info-->
+                <!--/.room-single-content-->
+                .hidden-md.hidden-lg.text-center.extend-btn
+                    span.extend-icon
+                        i.fa.fa-angle-down
+            <!--/.col-md-8-->
+            .col-md-4.room-single-sidebar                   
+                form.review-comment-form.box-radius(action="#")
+                    p
+                        | Your reservation
+                    .single-input
+                        label.text-uppercase
+                            |Arrival Date
+                        .input.box-radius
+                            i.fa.fa-calendar
+                            input.calendar.form-controller(type="text" id="date-arrival" placeholder="Arrival Date")
+                    .single-input
+                        label.text-uppercase
+                            |Departure Date
+                        .input.box-radius
+                            i.fa.fa-calendar
+                            input.calendar.form-controller(type="text" id="date-departure" placeholder="Departure Date")
+                    .single-input
+                        label.text-uppercase
+                            |Nights
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |1
+                                option(value="2")
+                                    |2
+                                option(value="3")
+                                    |3
+                    .single-input
+                        label.text-uppercase
+                            |Room Types
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |VIP Room
+                                option(value="2")
+                                    |Exclusive Room
+                                option(value="3")
+                                    |Normal Room
+                    .single-input
+                        label.text-uppercase
+                            |Rooms
+                        .input.box-radius
+                            i.fa.fa-caret-down
+                            select(name="room")
+                                option(value="1")
+                                    |1
+                                option(value="2")
+                                    |2
+                                option(value="3")
+                                    |3
+                    .single-input
+                        div.row
+                            .col-xs-6
+                                label.text-uppercase
+                                    |Adult
+                                .input.box-radius
+                                    i.fa.fa-caret-down
+                                    select(name="room")
+                                        option(value="1")
+                                            |1
+                                        option(value="2")
+                                            |2
+                                        option(value="3")
+                                            |3
+                            .col-xs-6
+                                label.text-uppercase
+                                    |Children
+                                .input.box-radius
+                                    i.fa.fa-caret-down
+                                    select(name="room")
+                                        option(value="1")
+                                            |1
+                                        option(value="2")
+                                            |2
+                                        option(value="3")
+                                            |3
+                    button.btn.btn-submit(type="submit")
+                        |Check Availability   
+                <!--/.review-comment-form-->  
+            <!--/.col-md-4-->
+    <!--/.container-->
+<!--/.room-list-area-->
+
+.room-related-area
+    .container
+        .row
+            .col-md-12
+                .section-title-area.text-center
+                    h2.section-title
+                        | Related Rooms
+                    p.section-title-dec
+                        | Find your rooms for your ability
+                <!--/.section-title-area-->
+            <!--/.col-md-12-->
+        <!--/.row-->
+        .row
+            .col-md-3.col-sm-6.col-xs-6
+                .single-room
+                    .room-thumb.box-radius
+                        a(href="room-single-page.html")
+                            img(src="images/rooms/img-1.jpg" alt="room")
+                    .room-info.box-radius
+                        h3.room-title
+                            a(href="room-single-page.html")
+                                | Room With ExtraFields
+                        h5
+                            |Starting from $50 / Night 
+                <!--/.single-room-->
+            <!--/.col-md-3-->
+            .col-md-3.col-sm-6.col-xs-6
+                .single-room
+                    .room-thumb.box-radius
+                        a(href="room-single-page.html")
+                            img(src="images/rooms/img-2.jpg" alt="room")
+                    .room-info.box-radius
+                        h3.room-title
+                            a.room-title(href="room-single-page.html")
+                                | Room With ExtraFields
+                        h5
+                            |Starting from $50 / Night 
+                <!--/.single-room-->
+            <!--/.col-md-3-->
+            .col-md-3.col-sm-6.col-xs-6
+                .single-room
+                    .room-thumb.box-radius
+                        a(href="room-single-page.html")
+                            img(src="images/rooms/img-3.jpg" alt="room")
+                    .room-info.box-radius
+                        h3.room-title
+                            a(href="#")
+                                | Room With ExtraFields
+                        h5
+                            |Starting from $50 / Night 
+                <!--/.single-room-->
+            <!--/.col-md-3-->
+            .col-md-3.col-sm-6.col-xs-6
+                .single-room
+                    .room-thumb.box-radius
+                        a(href="room-single-page.html")
+                            img(src="images/rooms/img-4.jpg" alt="room")
+                    .room-info.box-radius
+                        h3.room-title
+                            a(href="room-single-page.html")
+                                | Room With ExtraFields
+                        h5
+                            |Starting from $50 / Night 
+                <!--/.single-room-->
+            <!--/.col-md-3-->
+            .clearfix.hidden-xs
+        <!--/.row-->   
+    <!--/.container-->
+<!--/.room-related-area-->

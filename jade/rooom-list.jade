@@ -1,0 +1,15 @@
+extends jade-parts/docwrapper
+
+append pagetitle
+    |find your room
+
+append pagename
+    |List
+    
+append sitewellcome
+    //- Included Page heading And Page Nav
+    include jade-parts/page-heading-and-nav.jade
+    
+append sitecontent
+    //- Included Room List Content
+    include jade-parts/room-list-content.jade

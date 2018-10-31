@@ -1,0 +1,15 @@
+extends jade-parts/docwrapper
+
+append pagetitle
+    |spa
+    
+append pagename
+    |spa
+    
+append sitewellcome
+    //- Included Page heading And Page Nav
+    include jade-parts/page-heading-and-nav.jade
+    
+append sitecontent
+    //- Included Spa Page Content
+    include jade-parts/spa-page-content.jade

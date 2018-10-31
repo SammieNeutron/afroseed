@@ -1,0 +1,191 @@
+::selection {
+  background: #8ec63f none repeat scroll 0 0;
+}
+
+*::-moz-selection {
+  background: #8ec63f none repeat scroll 0 0;
+}
+
+a:hover, a:focus, a:active {
+  color: #8ec63f;
+}
+
+label a {
+  color: #8ec63f;
+}
+
+.post-details .entry-content a:hover,
+.btn:hover,
+.social-link a:hover,
+.rotate .cat-links a:hover,
+.layout-five .single-row-col .post-media .rotate .cat-links a:hover,
+.link-home a:hover,
+#author-details .authors-social a:hover,
+.tag a:hover,
+#submit:hover,
+.scroll-top a:hover,
+.entry-meta span a:hover,
+.more-link:hover,
+.follow-link a:hover {
+  color: #8ec63f;
+}
+
+.meta-content .meta-cat {
+  color: #8ec63f;
+}
+
+.slider-content .slider-navigation .owl-item.active li.active:before {
+  border-color: #8ec63f;
+}
+
+.slider-content .slider-navigation .meta-cat {
+  color: #8ec63f;
+}
+
+.social-link a:hover i,
+.error-page .error-page-list .error-search .btn-default:hover i,
+#author-slider .owl-controls .owl-nav > div:hover i,
+#featured-product-slide .owl-controls .owl-nav > div:hover i {
+  color: #8ec63f !important;
+}
+
+.navigation .menu-list li:hover > a {
+  color: #8ec63f !important;
+}
+.navigation .menu-list li .sub-menu > li:hover > a {
+  color: #8ec63f !important;
+}
+
+.error-page .error-page-list .error-search .btn-default:hover {
+  border-color: #8ec63f !important;
+}
+
+.btn:hover:hover,
+.btn.btn-default:hover,
+.comment-reply-link:hover,
+.form-submit #submit:hover {
+  background-color: rgba(57, 207, 218, 0.85);
+}
+
+.site-header .social-links a:hover {
+  color: #8ec63f;
+}
+
+.section-title-area span,
+.hotel-room-section-title .section-title span {
+  color: #8ec63f;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+.btn:hover {
+  background-color: rgba(57, 207, 218, 0.85);
+}
+
+.btn-offer {
+  border-color: #8ec63f;
+}
+.btn-offer > span {
+  color: #8ec63f;
+}
+
+.btn-default {
+  background-color: #8ec63f;
+}
+
+.btn-details {
+  background-color: #8ec63f;
+}
+
+.btn-submit {
+  background-color: #8ec63f;
+}
+
+.link-home:hover {
+  border-color: #8ec63f;
+}
+
+.header-top .col-md-4 .search-area .header-search .form-controller {
+  border-color: #8ec63f;
+}
+
+.timer-content-area .social-share > a:hover {
+  background-color: #8ec63f;
+}
+
+.paginations .paging-navigation ul li.active a {
+  background-color: #8ec63f;
+}
+
+.widget-social > a {
+  color: #8ec63f;
+}
+
+.widget_newsletter .newsletter-area #form-newsletter #mc-embedded-subscribe {
+  background-color: #8ec63f;
+}
+
+.single-spa-pricing .price {
+  color: #8ec63f;
+}
+
+.gallery-filter-menu > li > a:hover {
+  background-color: #8ec63f;
+  border-color: #8ec63f;
+}
+
+.welcome-section.style-one #aravira-facility a.single-facility > .fa {
+  background-color: #8ec63f;
+}
+.welcome-section.style-one .welcome-btn .btn-offer.active {
+  background: #8ec63f;
+}
+
+.welcome-text > p span {
+  color: #8ec63f;
+}
+
+.welcome-section.style-two .welcome-btn .btn-offer.active {
+  background: #8ec63f;
+}
+
+.online-book-section.style-two .section-title-area .title-box-inner,
+.online-book-section.style-two .form-content {
+  background: #8ec63f;
+}
+
+.online-book-section.style-two .form-content input {
+  border-color: #8ec63f;
+}
+
+.best-place-section.best-place-style-two .btn.btn-default {
+  background: #8ec63f;
+}
+
+.place-overlay-outer {
+  background-color: rgba(57, 207, 218, 0.8);
+}
+
+.customer-reviews .owl-controls .owl-dots > div.active {
+  background-color: #8ec63f;
+}
+
+.room-single-sidebar .review-comment-form label {
+  color: #8ec63f;
+}
+
+.single-event.list .event-title {
+  color: #8ec63f;
+}
+
+#footer-top-section {
+  background-color: #8ec63f;
+}
+
+.gallery-filter-menu li.current-tab a {
+  background-color: #8ec63f;
+}

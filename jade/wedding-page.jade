@@ -1,0 +1,15 @@
+extends jade-parts/docwrapper
+
+append pagetitle
+    |widding Event
+    
+append pagename
+    |widding
+    
+append sitewellcome
+    //- Included Page heading And Page Nav
+    include jade-parts/page-heading-and-nav.jade
+    
+append sitecontent
+    //- Included Wedding Page Content
+    include jade-parts/wedding-page-content.jade

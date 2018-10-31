@@ -1,0 +1,294 @@
+/*--------------------------------------------------------------
+# Welcome Section Basic
+--------------------------------------------------------------*/
+.welcome-text {
+    color: $color__white;
+    .title {
+        color: inherit;
+        font-size: 25px;
+        font-family: inherit;
+        margin-bottom: 0;
+        font-weight: 500;
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+        }
+    }
+    .headline {
+        color: inherit;
+        font-size: 75px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-top: 0;
+        margin-bottom: 15px;
+        @media only screen and (max-width: 767px) {
+            font-size: 40px;
+        }
+    }
+    > p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.75em;
+        word-spacing: 0.010em;
+    }
+}
+/*--------------------------------------------------------------
+# Welcome Section Style One
+--------------------------------------------------------------*/
+.welcome-section.style-one {
+    padding: 55px 0;
+    position: relative;
+    @media only screen and (max-width: 992px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    > .container > .row {
+        @media only screen and (max-width: 992px) {
+            margin: 0;
+        }
+    }
+    &:before {
+        background-color: rgba($color__black, 0.61);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        content: "";
+    }
+    .container {
+        padding: 0;
+        + div iframe {
+            @media only screen and (max-width: 992px) {
+                width: 100% !important;
+                margin-left: 0 !important;
+            }
+        }
+    }
+    .col-md-2 {
+        @media only screen and (min-width: 992px) {
+            padding-right: 0;
+        }
+    }
+    .btn-offer {
+        @media only screen and (max-width: 1199px) {
+            margin-bottom: 5px;
+        } 
+    }
+    #aravira-facility {
+        background-color: $color__white;
+        padding: 40px 50px;
+        @media only screen and (max-width: 1199px) {
+            padding: 30px;
+        }
+        a.single-facility {
+            color: $color__black;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: capitalize;
+            display: block;
+            text-align: center;
+            letter-spacing: 0.015em;
+            > span {
+                display: block;
+                margin: 5px 0 10px;
+            }
+            > .fa {
+                border-radius: 5px;
+                color: $color__white;
+                display: block;
+                font-size: 24px;
+                height: 55px;
+                line-height: 55px;
+                margin: auto;
+                width: 65px;
+            }
+            @media only screen and (max-width: 992px) {
+                display: inline-block;
+                padding: 0 15px;
+            }
+        }
+        .facility-col {
+            @media only screen and (max-width: 992px) {
+                text-align: center;
+            }
+        }
+    } 
+    .owl-controls > .owl-nav > div {
+        background-color: $color__waterwrap-text;
+        border-radius: 3px;
+        color: $color__black;
+        display: inline-block;
+        font-size: 18px;
+        height: 28px;
+        line-height: 28px;
+        margin: 0 4px;
+        width: 28px;
+    }
+    .col-md-7 {
+        padding-right: 0;
+        min-height: 400px;
+        @-moz-document url-prefix() {
+            height: 400px;
+        }
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            height: 400px;
+        }
+        @supports (-ms-ime-align:auto) {
+            height: 400px;
+        }
+        @media only screen and (max-width: 992px) {
+            padding-right: 0;
+            height: auto;
+            margin-bottom: 15px;
+        }
+    }
+}
+/*--------------------------------------------------------------
+# Welcome Section Style Two
+--------------------------------------------------------------*/
+.welcome-section.style-two {
+    .tb {
+        margin: auto;
+        text-align: center;
+        float: none;
+        padding: 10% 0;
+        @media only screen and (max-width: 767px) {
+            padding: 12%  0;
+        }        
+        @media only screen and (min-width: 1400px) {
+            padding: 12%  0;
+        }
+    }
+    .pogoSlider-slide {
+        &:before {
+            background-color: rgba($color__black, 0.61);
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            content: "";
+        }
+    }
+    .pogoSlider--dirBottomLeft .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirTopLeft .pogoSlider-dir-btn--prev {
+        left: 5%;
+        @media only screen and (max-width: 400px) {
+            left: 1%;
+        }
+    }
+    .pogoSlider--dirBottomRight .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirTopRight .pogoSlider-dir-btn--next {
+        right: 5%;
+        @media only screen and (max-width: 400px) {
+            right: 1%;
+        }
+    }
+    .pogoSlider--dirBottomLeft .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirBottomRight .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirTopLeft .pogoSlider-dir-btn--prev, 
+    .pogoSlider--dirTopRight .pogoSlider-dir-btn--prev {
+        border-width: 0 0 5px 5px;
+    }
+    .pogoSlider--dirBottomLeft .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirBottomRight .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirTopLeft .pogoSlider-dir-btn--next, 
+    .pogoSlider--dirTopRight .pogoSlider-dir-btn--next {
+        border-width: 5px 5px 0 0;
+    }
+    .pogoSlider--navBottom .pogoSlider-nav {
+        bottom: 30px;
+        @media only screen and (max-width: 767px) {
+            bottom: 10px;
+        }
+    }
+    .welcome-text > p {
+        margin-bottom: 0;
+    }
+    .welcome-text .title {
+        margin-bottom: 0;
+    }
+    .welcome-text .headline {
+        margin-bottom: 30px;
+        @media only screen and (max-width: 500px) {
+            margin-bottom: 15px;
+        }
+    }
+    .welcome-btn {
+        @media only screen and (max-width: 767px) {
+            text-align: center;
+        }
+        .btn-offer {
+            @media only screen and (max-width: 767px) {
+                display: table;
+                margin: 0 auto 10px;
+            }
+        }
+    }
+    .pogoSlider {
+        @media only screen and (max-width: 992px) and (min-width: 768px) {
+            padding-bottom: 75% !important;
+        }        
+        @media only screen and (max-width: 767px) {
+            padding-bottom: 90% !important;
+        }        
+        @media only screen and (max-width: 400px) {
+            padding-bottom: 105% !important;
+        }
+    }
+    .pogoSlider-nav {
+        @media only screen and (max-width: 400px) {
+            display: none;
+        }
+    }
+}
+/*--------------------------------------------------------------
+# Welcome Section Modal
+--------------------------------------------------------------*/
+#login-modal,
+#registrar-modal,
+#booking-modal {
+    .modal-header {
+        border-bottom: 0 none;
+    }
+    .modal-body {
+        padding: 0 45px 20px;
+        @media only screen and (max-width: 500px) {
+            padding: 0 30px 20px;  
+        }
+    }
+    .modal-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .btn-submit {
+        padding: 15px 0;
+    }
+    .form-controller {
+        border: 0 none;
+    }
+    label {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .btn-submit {
+        margin-top: 10px;
+    }
+}
+#login-modal .login-help {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    a {
+        margin-right: 5px;
+    }
+    a:last-child {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+}
