@@ -58,3 +58,14 @@
       width: 80% !important;
       height: auto;
   }
+
+  @media(max-width: 767px) {
+      #res {
+          font-size: 24px;
+      }
+
+      iframe {
+          width: 250;
+          height: 100;
+      }
+  }
