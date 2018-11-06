@@ -69,3 +69,9 @@
           height: 100;
       }
   }
+
+  .summit li{
+    font-weight: normal;
+    margin-bottom:10px;  
+    margin-left: 10px;
+  }
