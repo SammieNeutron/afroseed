@@ -2489,11 +2489,11 @@ a:hover, a:active {
   background-color: white;
 }
 .header-bottom .logo-block {
-  padding: 15px 0;
+  padding: 0px 0;
 }
 @media only screen and (max-width: 992px) {
   .header-bottom .logo-block {
-    padding: 20px 0;
+    padding: 0px 0;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -3348,12 +3348,14 @@ a:hover, a:active {
 .single-hospitality {
   background-color: #fff;
   text-align: center;
-  min-height: 255px;
-  border-radius: 10px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
 .single-hospitality .icon-image {
-  display: block;
-  min-height: 52px;
+  display: inline-block!important;
+  /* min-height: 30px; */
+  margin-top: 30px;
 }
 .single-hospitality h3 {
   color: black;

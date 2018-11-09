@@ -6,8 +6,12 @@
     font-weight: normal;
 }
 
-.nelson .nel-p span {
+.nelson .nel-p #readmore,#shrink {
     color: #C7162D;
+}
+
+.nelson h4 {
+    color: #444;
 }
 
 .programmes {
@@ -24,6 +28,12 @@
 
 .details {
     padding: 20px 15px 20px;;
+}
+
+.details h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .work-with-us {
@@ -57,6 +67,7 @@
   .imgs {
       width: 80% !important;
       height: auto;
+      margin-left: 60px;
   }
 
   @media(max-width: 767px) {
@@ -74,4 +85,28 @@
     font-weight: normal;
     margin-bottom:10px;  
     margin-left: 10px;
+  }
+
+  .socials div {
+    float: left;
+    margin: 10px;
+  }
+
+  .socials h4 {
+      margin-left: 15px;
+  }
+
+  .icon-img {
+      width: 100px !important;
+      height: auto;
+      text-align: center!important;
+  }
+
+  .ba {
+      text-align: center;
+  }
+
+  .as {
+      display: inline-block;
+      margin-left: 50px;
   }
