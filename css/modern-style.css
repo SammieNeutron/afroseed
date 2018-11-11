@@ -27,7 +27,15 @@
 }
 
 .details {
-    padding: 20px 15px 20px;;
+    padding: 20px 15px 20px;
+}
+
+.details p {
+    color: black;
+}
+
+.details_ {
+    padding: 20px 15px 20px;
 }
 
 .details h3 {
@@ -110,3 +118,23 @@
       display: inline-block;
       margin-left: 50px;
   }
+
+  .as_ {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.as__ {
+    display: inline-block;
+    margin-left: 175px;
+}
+
+@media(max-width: 767px) {
+    .as_ {
+        margin-left: 80px;
+    }
+
+    .as__ {
+        margin-left: 80px;
+    }
+}

@@ -163,15 +163,91 @@ h4 a:hover {
   border-bottom: 1px dotted black;
 }
 
-.page-heading-area {
-  background-color: #8ec63fcd;
-  padding: 100px 0 100px;
+.page-heading-area-about {
+  background-color: #3f61c6cd;
+  padding: 200px 0 100px;
+  height: 500px;
 }
 
-.page-area-bg {
+.page-area-bg-about {
   position: relative;
-  background: url('images/bg1.jpg');
+  background: url('images/afroseedbanners/business-conference1.jpg');
+  height: 500px;
 }
+
+.page-heading-area-biz {
+  background-color: #c6a23fcd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-biz {
+  position: relative;
+  height: 500px;
+  background: url('images/afroseedbanners/164_IMAGE1.jpg');
+  height: 500px;
+}
+
+.page-heading-area-market {
+  background-color: #3fc4c6cd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-market {
+  position: relative;
+  height: 500px;
+  background: url('images/afroseedbanners/165_IMAGE1.jpg');
+}
+
+.page-heading-area-school {
+  background-color: #c63fbfcd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-school {
+  position: relative;
+  height: 500px;
+  background: url('images/afroseedbanners/167_IMAGE1.jpg');
+}
+
+.page-heading-area-banking {
+  background-color: #c6bd3fcd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-banking {
+  position: relative;
+  height: 500px;
+  background: url('images/afroseedbanners/167_IMAGE1.jpg');
+}
+
+.page-heading-area-resource {
+  background-color: #3fc670cd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-resource {
+  position: relative;
+  background: url('images/afroseedbanners/koch_scholars1.jpg');
+  height: 500px;  
+}
+
+.page-heading-area-contact {
+  background-color: #8ec63fcd;
+  padding: 200px 0 100px;
+  height: 500px;
+}
+
+.page-area-bg-contact {
+  position: relative;
+  background: url('images/afroseedbanners/ycs1.jpg');
+  height: 500px;
+}
+
 .page-heading-area .page-heading {
   color: white;
   font-size: 32px;
