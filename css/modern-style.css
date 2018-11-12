@@ -2,6 +2,10 @@
     font-weight: bold;
 }
 
+.nelson li {
+    font-weight: normal;
+}
+
 .nelson .nel-p {
     font-weight: normal;
 }
@@ -127,6 +131,11 @@
 .as__ {
     display: inline-block;
     margin-left: 175px;
+}
+
+.as___ {
+    display: inline-block;
+    margin-left: 85px;
 }
 
 @media(max-width: 767px) {
